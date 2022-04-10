@@ -1,6 +1,5 @@
 import { Injectable } from '@nestjs/common';
 import { plainToClass } from 'class-transformer';
-import { ArticleOutput } from 'src/article/dtos/article-output.dto';
 
 import { CreateItemInput } from './item.dto';
 import { Item } from './item.entity';
