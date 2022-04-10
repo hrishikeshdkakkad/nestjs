@@ -8,8 +8,8 @@ import {
 } from '@nestjs/common';
 import { BaseApiResponse } from 'src/shared/dtos/base-api-response.dto';
 
+import { Item } from './entities/item.entity';
 import { CreateItemInput } from './item.dto';
-import { Item } from './item.entity';
 import { ItemService } from './item.service';
 import { ItemOutout } from './item-output.dto';
 

@@ -1,7 +1,7 @@
 import { NotFoundException } from '@nestjs/common';
 import { EntityRepository, Repository } from 'typeorm';
 
-import { Item } from './item.entity';
+import { Item } from './entities/item.entity';
 
 @EntityRepository(Item)
 export class ItemRepository extends Repository<Item> {
