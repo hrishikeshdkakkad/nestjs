@@ -1,5 +1,5 @@
 module.exports = {
-  type: 'mysql',
+  type: 'postgres',
   host: process.env.DB_HOST,
   port: process.env.DB_PORT ? parseInt(process.env.DB_PORT, 10) : null,
   username: process.env.DB_USER,
